@@ -6,8 +6,8 @@ document.querySelector('#on').addEventListener('click', function(){
     documentID.classList.remove("hide");
     
     
-    var url = 'output.html';
-    window.open(url, '_blank');
+   //  var url = 'output.html';
+   //  window.open(url, '_blank');
 
 
 
@@ -20,12 +20,12 @@ document.querySelector('#on').addEventListener('click', function(){
 
 });
 
- document.querySelector('#off').addEventListener('click', function(){ 
+ function offi(){ 
     
     var documentID1 = document.getElementById("collapse");
     documentID1.classList.add("hide");
 
- });
+ }
  //
  document.querySelector('#product').addEventListener('click', function(){ 
    alert("hi");
@@ -39,6 +39,14 @@ document.querySelector('#on').addEventListener('click', function(){
 
 
 });
+var khanki =0;
+function bar(){
+   
+   alert("Info Updated");
+   khanki +=25;
+   document.getElementById("chumu1").style.value = "width:" + khanki.toString()+"%";
+
+}
 
 
 
